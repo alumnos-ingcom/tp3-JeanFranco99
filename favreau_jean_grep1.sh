@@ -1,4 +1,4 @@
- echo "Imprimir todas las lineas que contengan un numero"
+ echo "Imprimir todas las lineas que contengan un numero telefonico"
  grep -Ein --color 'x[[:digit:]]{4}' grepdata.txt
  echo "Imprimir las lineas que comiencen con tres digitos seguidos de un espacio"
  grep -E --color '^[[:digit:]]{3}* '  grepdata.txt
